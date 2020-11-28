@@ -1,0 +1,204 @@
+:root{
+    --accent-color:#2196F3;
+    --roboto-font: Roboto, sans-serif;
+    --raleway-font: Raleway, sans-serif;
+    --titles-color: #212121;
+    --items-color: #757575;
+
+}
+/*------------HEADER--------------*/ 
+.logo{
+font-family: var(--raleway-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+text-decoration: none;    
+}
+.logo-first{
+color: #2196F3;
+
+}
+.logo-second{
+color: #000000;
+}
+.nav{
+font-family: var(--roboto-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+           
+}
+.nav-list{
+    color: var(--titles-color);
+}
+.nav-list, .contacts, .advantages-list, .we_made_job-list, .our-team-list, .btn-list, .examples-list {
+list-style: none;
+
+}
+.nav-list-studio, .nav-list-portfolio, .nav-list-contacts{
+    text-decoration: none;
+}
+.nav-list-studio:hover, .nav-list-studio:focus, 
+.nav-list-portfolio:hover, .nav-list-portfolio:focus, 
+.nav-list-contacts:hover, .nav-list-contacts:focus {
+    color: var(--accent-color);
+}
+.mail, .tel {
+    text-decoration: none;
+    color: var(--items-color);
+    font-style: normal;
+}
+.mail:hover, .mail:focus, .tel:hover, .tel:focus{
+    color:var(--accent-color);
+}
+
+}
+/*-------------END HEADER----------------*/
+
+/*-------------HERO----------------*/
+.hero-title{
+font-family: var(--roboto-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,364;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+/*color: #FFFFFF;*/
+}
+.hero-btn{
+font-family: var(--roboto-font);
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/*color: #FFFFFF;*/
+}
+/*--------------END HERO--------------*/
+
+/*--------------ADVANTAGES-------------*/
+.advantages-title{
+    
+    font-family: var(--roboto-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height:1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--titles-color);
+}
+.advantages-discription{
+font-family: var(--roboto-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+/* or 171% */
+letter-spacing: 0.03em;
+color: var(--items-color);
+}
+/*---------------END AVANTAGES--------------*/
+
+/*---------------WE MADE--------------------*/
+
+
+.we_made-title, .our_team-tilte, .constant-clients{
+font-family: var(--roboto-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--titles-color);
+}
+
+/*----------------END WE MADE----------------*/
+
+/*---------------OUR TEAM--------------------*/
+
+.our_team-item-title{
+    font-family: var(--roboto-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--titles-color);
+}
+.our_team-item-position{
+    font-family: var(--roboto-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--items-color);
+}
+/*-----------------END OUR TEAM---------------*/
+
+/*-----------------FOOTER---------------------*/
+
+.adress-gorod{
+    font-family: var(--roboto-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px1.714;
+letter-spacing: 0.03em;
+/*color: #FFFFFF;*/
+}
+/*------------------END FOOTER-----------------*/
+
+/*------------------PORTFOLIO------------------*/
+
+.btn-list{
+font-family: var(--roboto-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--titles-color);
+}
+
+
+.examples-title{
+    font-family: var(--roboto-font);
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--titles-color);
+}
+.example-description{
+font-family: var(--roboto-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--items-color);
+}
+
+.btn-item:hover, .btn-item:focus{
+    background-color: var(--accent-color); 
+    color: #ffffff;
+}
+/*--------------END PORTFOLIO-----------*/
