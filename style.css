@@ -6,6 +6,25 @@
     --items-color: #757575;
 
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+
 /*------------HEADER--------------*/ 
 .logo{
 font-family: var(--raleway-font);
@@ -18,9 +37,55 @@ text-decoration: none;
 color: #2196F3;
 
 }
-.logo-second{
+.header>.logo-second{
 color: #000000;
 }
+
+.header .logo{
+    margin-right: 93px;
+}
+.nav-list:not(:first-child){
+  margin-left: 50px;  
+}
+
+
+.tel{
+    margin-left: 50px;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+   /* display: flex;
+    align-items: center;
+    justify-content: space-between;*/
+}
+.header>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+.container-nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.container-contacts{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
 .nav{
 font-family: var(--roboto-font);
 font-style: normal;
@@ -39,6 +104,7 @@ list-style: none;
 }
 .nav-list-studio, .nav-list-portfolio, .nav-list-contacts{
     text-decoration: none;
+    
 }
 .nav-list-studio:hover, .nav-list-studio:focus, 
 .nav-list-portfolio:hover, .nav-list-portfolio:focus, 
@@ -58,20 +124,36 @@ list-style: none;
 /*-------------END HEADER----------------*/
 
 /*-------------HERO----------------*/
+
+.container-hero{
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+}
+
 .hero-title{
 font-family: var(--roboto-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1,364;
-/* or 136% */
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
+margin: auto;
 /*color: #FFFFFF;*/
 }
+
+
 .hero-btn{
+font-family: var(--roboto-font);
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+/* identical to box height, or 187% */
+
+/*color: #FFFFFF;*/
+.hero-btn-name{
 font-family: var(--roboto-font);
 font-style: normal;
 font-weight: bold;
@@ -84,7 +166,8 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-/*color: #FFFFFF;*/
+color: #FFFFFF;
+}
 }
 /*--------------END HERO--------------*/
 
@@ -109,7 +192,23 @@ line-height: 1.714;
 /* or 171% */
 letter-spacing: 0.03em;
 color: var(--items-color);
+max-width: 270px;
+margin-top: 10px;
 }
+
+.container-advantages-list{
+    display: flex;
+    align-items: center;
+    margin-top: 94px;
+    justify-content: space-between;
+
+}
+
+
+.container-advantages-list:not(:last-child){
+    margin-right: 30px;
+}
+
 /*---------------END AVANTAGES--------------*/
 
 /*---------------WE MADE--------------------*/
@@ -125,9 +224,27 @@ letter-spacing: 0.03em;
 color: var(--titles-color);
 }
 
+.container-we_made{
+    margin-top: 94px;
+}
+.we_made_job-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.we_made_job-list:not(:last-child){
+    margin-right: 30px;
+}
 /*----------------END WE MADE----------------*/
 
 /*---------------OUR TEAM--------------------*/
+.name{
+    padding-top: 30px;
+
+}
+.position{
+    margin-top: 10px;
+}
 
 .our_team-item-title{
     font-family: var(--roboto-font);
@@ -138,6 +255,7 @@ color: var(--titles-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titles-color);
+    
 }
 .our_team-item-position{
     font-family: var(--roboto-font);
@@ -148,10 +266,33 @@ line-height: 1.188;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--items-color);
+margin-bottom: 10px;
+}
+
+.container-our_team{
+    margin-top: 94px;
+    padding-top: 94px;
+}
+.our-team-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.our-team-list:not(:last-child){
+    margin-right: 30px;
+
 }
 /*-----------------END OUR TEAM---------------*/
 
 /*-----------------FOOTER---------------------*/
+
+.footer{
+    background-color: #2F303A;
+}
+.footer>.logo-second{
+    color: #ffffff;
+}
 
 .adress-gorod{
     font-family: var(--roboto-font);
@@ -160,7 +301,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px1.714;
 letter-spacing: 0.03em;
-/*color: #FFFFFF;*/
+color: #FFFFFF;
 }
 /*------------------END FOOTER-----------------*/
 
