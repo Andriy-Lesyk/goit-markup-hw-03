@@ -37,7 +37,7 @@ text-decoration: none;
 color: #2196F3;
 
 }
-.header>.logo-second{
+.logo-second{
 color: #000000;
 }
 
@@ -49,7 +49,7 @@ color: #000000;
 }
 
 
-.tel{
+.tel-head{
     margin-left: 50px;
 }
 
@@ -126,9 +126,9 @@ list-style: none;
 /*-------------HERO----------------*/
 
 .container-hero{
-   display: flex;
-   flex-direction: column;
-   align-items: baseline;
+    text-align: center;
+
+    padding-top: 200px;
 }
 
 .hero-title{
@@ -136,10 +136,10 @@ font-family: var(--roboto-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1,364;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-margin: auto;
+text-align: center;
+margin-bottom: 30px;
 /*color: #FFFFFF;*/
 }
 
@@ -150,9 +150,15 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.875;
+text-align: center;
+min-width: 200px;
+background-color: var(--accent-color);
+
 /* identical to box height, or 187% */
 
-/*color: #FFFFFF;*/
+color: #FFFFFF;
+}
+
 .hero-btn-name{
 font-family: var(--roboto-font);
 font-style: normal;
@@ -160,15 +166,12 @@ font-weight: bold;
 font-size: 16px;
 line-height: 1.875;
 /* identical to box height, or 187% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
 }
+
+.container-hero-btn{
+    text-align: center;
 }
+
 /*--------------END HERO--------------*/
 
 /*--------------ADVANTAGES-------------*/
@@ -289,9 +292,18 @@ margin-bottom: 10px;
 
 .footer{
     background-color: #2F303A;
+    padding-top: 75px;
+    padding-bottom: 60px;
 }
-.footer>.logo-second{
-    color: #ffffff;
+.logo-foot{
+    color: #ffffff;    
+}
+
+.container-logo{
+margin-bottom: 20px;
+}
+.container-address{
+    text-align: left;
 }
 
 .adress-gorod{
@@ -303,6 +315,9 @@ line-height: 24px1.714;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+
+
+
 /*------------------END FOOTER-----------------*/
 
 /*------------------PORTFOLIO------------------*/
