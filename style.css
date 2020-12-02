@@ -362,6 +362,10 @@ padding-top: 94px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    
 }
 .btn-item{
      background-color: #F5F4FA;
@@ -401,15 +405,15 @@ color: var(--titles-color);
 .btn-sheet:not(:last-child){
     margin-right: 8px;
 }
-.card-item{
-    border-width: 1px;
-    border-style: solid;
-    border-color:transparent;
+
+.examples-item-picture{
+    display: block;
 }
 
 
 .examples-title{
-    font-family: var(--roboto-font);
+    
+font-family: var(--roboto-font);
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -419,6 +423,7 @@ color: var(--titles-color);
 padding-bottom: 4px;
 }
 .example-description{
+  
 font-family: var(--roboto-font);
 font-style: normal;
 font-weight: normal;
