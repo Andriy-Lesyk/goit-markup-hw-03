@@ -348,6 +348,9 @@ color: #FFFFFF;
 
 /*------------------PORTFOLIO------------------*/
 
+.portfolio-body{
+    margin: 0;
+}
 .container-btn-list{
 display: flex;
 justify-content: center;
@@ -372,6 +375,8 @@ padding-top: 94px;
     
 }
 .btn-item{
+    display: block;
+    height: 38px;
      background-color: #F5F4FA;
      border-radius: 4px;
      border-color: transparent;
@@ -392,6 +397,21 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color:var(--titles-color);
+}
+.btn-first{
+    width: 73px;  
+}
+.btn-second{
+    width: 128px;
+}
+.btn-third{
+    width: 140px;
+}
+.btn-fourth{
+    width: 103px;
+}
+.btn-fifth{
+    width: 130px;
 }
 .btn-list{
 font-family: var(--roboto-font);
